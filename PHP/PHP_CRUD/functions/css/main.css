@@ -1,0 +1,104 @@
+body    {
+    margin: 0;
+}
+header  {
+    height: 10%;
+    text-align: center;
+    outline: 5px solid black;
+    padding: 3px;
+
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+#container  {
+    background-color: white;
+    min-height: auto;
+    width: 30%;
+    padding: 5%; 
+    opacity: 0.8;
+    margin-top: 8%; 
+    display: inline-block;
+}
+#ulist  {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+
+}
+img {
+    margin: 15%;
+}
+li  { 
+    height: auto;
+    display: inline-block;
+    min-width: 5%;
+    position: relative;
+    margin-left: 2%;
+    text-decoration: none;
+}
+nav {
+    overflow: hidden;
+    margin-top: 5px;
+    height: 35px;
+    width: 40%;
+    margin-left: 60%;
+    margin-top: 2%;
+}
+#deftext    {
+    text-align: center;
+    width: 100%;
+}
+#content    {
+    margin: 5%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: grey;
+    
+  
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+    background-color: grey
+}
+  
+tr:nth-child(even)
+{
+    background-color: #f2f2f2
+}
+  
+th 
+{
+    background-color: grey;
+    color: white;
+}
+
+#parallex-div {
+    background-image: url('../../articles/fotos/parallexbackground.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+a   {
+    color: white;
+    opacity: 0.4;
+    font-size: 25;
+    font-family: arial;
+    transition: opacity 0.6s;
+    text-decoration: none;
+    
+}
+a:hover {
+     opacity: 1; 
+}
